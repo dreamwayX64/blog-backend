@@ -7,3 +7,5 @@
 2. Edit docker-compose.yml and change USER and PASSWORD to you user and password.
 
 3. ``` docker compose up -d ``` or ``` docker-compose up -d ``` idk what distribution you have :)
+
+***Attention: Default port changed to 5430! Therefore, when connecting, we do not use 5432!!!***
