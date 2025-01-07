@@ -1,4 +1,4 @@
-> I'm writing with beer. Something will appear here soon
+> I'm writing under beer. Something will appear here soon
 
 # How to start?
 
