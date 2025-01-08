@@ -1,3 +1,5 @@
-module dr34mwayX64/blog-backend
+module github.com/dreamwayX64/blog-backend
 
 go 1.23.4
+
+require github.com/lib/pq v1.10.9 // indirect
