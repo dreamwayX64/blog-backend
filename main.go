@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"database/sql"
+	"github.com/dreamwayX64/blog-backend/pkg/config"
 	_ "github.com/lib/pq"
 )
 
@@ -13,7 +14,7 @@ type user struct {
 
 func main() {
 	fmt.Println("Начало положено :)")
-
+	config.GetConfig()
 	connectionString := "user=bogdan password=123 dbname=blog-db sslmode=disable port=5430"
 
 	db, err := sql.Open("postgres", connectionString)
